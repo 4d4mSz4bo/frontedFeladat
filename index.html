@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Tailwind CSS (használata nem kötelező) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Reszponzív formázás – Programozási nyelvek</title>
+</head>
+<body class="bg-blue-200 text-blue-500 text-lg">
+
+    <!-- ===== MENÜ ===== -->
+     
+    <nav  class="flex items-center justify-between bg-gray-100 p-4">
+        <!-- Bal oldali rész -->
+        <div class="flex items-center space-x-4 ">
+            <img src="code_logo.png" alt="Logo" width="50px" class="text-lg font-bold">
+            <p>CodeHub</p>
+        </div>
+
+        <!-- Jobb oldali rész -->
+        <div>   
+            <ul class="flex items-center space-x-4 ">
+                <li class="hover:text-gray-300 round hover:bg-blue-600">Python</li>
+                <li class="hover:text-gray-300 hover:bg-blue-600">JavaScript</li>
+                <li class="hover:text-gray-300 hover:bg-blue-600">Java</li>
+                <li class="hover:text-gray-300 hover:bg-blue-600">C#</li>
+            </ul>
+        </div>
+    </h1>
+    </nav>
+
+
+    <!-- ===== TARTALMI RÉSZ ===== -->
+    <section class="max-w-6xl mx-auto px-6 py-10 text-center">
+
+    <!-- Címsor -->
+    <h1 class="text-3xl font-bold mb-8 rounded-md p-2 mb-3 bg-blue-300 inline-block px-3 py-3 rounded">
+      Programozási nyelvek
+    </h1>
+
+    <!-- Kártyák -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-5 justify-items-center gap-x-0">
+
+      <!-- Python -->
+      <div class="bg-white rounded-xl p-6 w-64 shadow transition hover:shadow-lg flex flex-col items-center">
+        <img src="python.png" alt="Python"
+             class="w-32 h-32 rounded-xl border-2 border-blue-900 box-border transition hover:border-8">
+        <p class="mt-4 font-semibold">Python</p>
+      </div>
+
+      <!-- JavaScript -->
+      <div class="bg-white rounded-xl p-6 w-64 shadow transition hover:shadow-lg flex flex-col items-center">
+        <img src="javascript.png" alt="JavaScript"
+             class="w-32 h-32 rounded-xl border-2 border-blue-900 box-border transition hover:border-8">
+        <p class="mt-4 font-semibold">JavaScript</p>
+      </div>
+
+      <!-- Java -->
+      <div class="bg-white rounded-xl p-6 w-64 shadow transition hover:shadow-lg flex flex-col items-center">
+        <img src="java.png" alt="Java"
+             class="w-32 h-32 rounded-xl border-2 border-blue-900 box-border transition hover:border-8">
+        <p class="mt-4 font-semibold">Java</p>
+      </div>
+
+      <!-- C# -->
+      <div class="bg-white rounded-xl p-6 w-64 shadow transition hover:shadow-lg flex flex-col items-center">
+        <img src="csharp.png" alt="C#"
+             class="w-32 h-32 rounded-xl border-2 border-blue-900 box-border transition hover:border-8">
+        <p class="mt-4 font-semibold">C#</p>
+      </div>
+
+    <footer>
+        <!-- opcionális -->
+    </footer>
+
+</body>
+</html>
